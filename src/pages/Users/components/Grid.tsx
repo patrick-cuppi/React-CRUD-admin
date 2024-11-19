@@ -12,7 +12,7 @@ import { useLocalStorage } from "usehooks-ts"
 
 import DataTable from "../../../components/DataTable"
 
-import { User } from "../pages/Users/types/User"
+import { User } from "../types/User"
 
 export default function Grid() {
   const [users, setUsers] = useLocalStorage<User[]>("users", [])
